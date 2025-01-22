@@ -134,13 +134,13 @@ namespace CanToptan_Fatura_Control.irsaliye
                     }
                 }
 
-                // "Firma Seç" seçeneğini ekle
+                
                 DataRow newRow = dataTable.NewRow();
                 newRow["ID"] = -1;
                 newRow["Tanım"] = "Firma Seç";
                 dataTable.Rows.InsertAt(newRow, 0);
 
-                // ComboBox'a veri bağla
+                
                 CmbType.DataSource = dataTable;
                 CmbType.DisplayMember = "Tanım";
                 CmbType.ValueMember = "ID";
@@ -399,7 +399,7 @@ namespace CanToptan_Fatura_Control.irsaliye
         }
         private void multiCompareItem_Click(object sender, EventArgs e)
         {
-            // Get the data source from the grid control (should be a DataTable)
+            
             DataTable dataSource = gridControl1.DataSource as DataTable;
 
             if (dataSource == null)
@@ -511,7 +511,7 @@ namespace CanToptan_Fatura_Control.irsaliye
                             decimal tigerToplam = Convert.ToDecimal(reader["Toplam Tutar"] ?? 0);
                            
 
-                            // Tolerans kontrolü
+                            
                             decimal tolerans = Convert.ToDecimal(Properties.Settings.Default.Tolerans ?? "0");
 
                             bool toplamFark = Math.Abs(tigerToplam - elogoToplam) > tolerans;
@@ -551,7 +551,7 @@ namespace CanToptan_Fatura_Control.irsaliye
 
             try
             {
-                // SOAP Envelope oluştur
+               
                 string soapEnvelope = $@"
             <soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/'
                                xmlns:tem='http://tempuri.org/'
@@ -567,7 +567,7 @@ namespace CanToptan_Fatura_Control.irsaliye
                 </soapenv:Body>
             </soapenv:Envelope>";
 
-                // SOAP isteği gönder ve cevabı al
+                
                 string loginResponse = await SendSoapRequestLog(soapEnvelope);
 
                 string sessionId = ExtractSessionId(loginResponse);
@@ -596,25 +596,25 @@ namespace CanToptan_Fatura_Control.irsaliye
                     </soapenv:Body>
                 </soapenv:Envelope>";
 
-                        // SOAP belge veri isteği gönder ve cevabı al
+                       
                         string responseString = await SendSoapRequestPDF("https://pb.elogo.com.tr/PostboxService.svc", documentRequest);
 
                         string base64Zip = ExtractBase64ZipFromResponse(responseString);
 
                         if (!string.IsNullOrEmpty(base64Zip))
                         {
-                            // Base64 zip verisini byte dizisine çevir
+                            
                             byte[] zipBytes = Convert.FromBase64String(base64Zip);
                             string tempZipPath = Path.Combine(Path.GetTempPath(), "document.zip");
 
-                            // Zip dosyasını diske yaz
+                     
                             File.WriteAllBytes(tempZipPath, zipBytes);
 
-                            // Zip içinden PDF çıkar
+                          
                             string pdfPath = ExtractPdfFromZip(tempZipPath);
                             if (!string.IsNullOrEmpty(pdfPath))
                             {
-                                // PDF'yi göster
+                             
                                 Frm_pdf pdf = new Frm_pdf(pdfPath);
                                 pdf.Show();
                             }

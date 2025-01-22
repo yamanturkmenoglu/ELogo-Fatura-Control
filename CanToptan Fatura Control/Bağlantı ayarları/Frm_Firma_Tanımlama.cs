@@ -63,7 +63,7 @@ namespace CanToptan_Fatura_Control
                         cmd.ExecuteNonQuery();
                     }
 
-                    // Verileri tabloya ekle
+                   
                     string insertDataQuery = @"
                     INSERT INTO MEFA_Connection (Tanım, [ServerName], [UserName], [UserPass], [DatabaseName], [FirmaNo], DonemNo, [ELogoUser], [ElogoPass])
                     VALUES (@Tanim, @ServerName, @User, @Password, @DbName, @FirmaNo, @DonemNo, @EUser, @EPass)";
@@ -85,7 +85,7 @@ namespace CanToptan_Fatura_Control
 
                     XtraMessageBox.Show("Bağlantı başarıyla tamamlandı.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
-                    // Form verilerini sıfırla
+                   
                     ClearFormFields();
                 }
             }

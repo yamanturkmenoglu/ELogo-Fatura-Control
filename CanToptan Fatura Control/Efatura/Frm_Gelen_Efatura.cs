@@ -131,13 +131,13 @@ namespace CanToptan_Fatura_Control
                     }
                 }
 
-                // "Firma Seç" seçeneğini ekle
+                
                 DataRow newRow = dataTable.NewRow();
                 newRow["ID"] = -1;
                 newRow["Tanım"] = "Firma Seç";
                 dataTable.Rows.InsertAt(newRow, 0);
 
-                // ComboBox'a veri bağla
+                
                 CmbType.DataSource = dataTable;
                 CmbType.DisplayMember = "Tanım";
                 CmbType.ValueMember = "ID";
@@ -285,8 +285,8 @@ namespace CanToptan_Fatura_Control
                     FROM 
                     {tableInvoice} F 
                      WHERE 
-                     F.EINVOICE = 1
-                     AND F.GRPCODE = 1
+                    
+                        F.GRPCODE = 1
                      AND F.FICHENO = @FICHENO;";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@FICHENO", faturaNo);
@@ -298,7 +298,7 @@ namespace CanToptan_Fatura_Control
                             decimal tigerToplam = Convert.ToDecimal(reader["Toplam Tutar"] ?? 0);
                             decimal tigerVergi = Convert.ToDecimal(reader["Vergi Toplamı"] ?? 0);
 
-                            // Tolerans kontrolü
+                           
                             decimal tolerans = Convert.ToDecimal(Properties.Settings.Default.Tolerans ?? "0");
 
                             bool toplamFark = Math.Abs(tigerToplam - elogoToplam) > tolerans;
@@ -320,7 +320,7 @@ namespace CanToptan_Fatura_Control
                     }
                 }
             }
-            gridView1.Columns["Durum"].Width = 500;  // Sütun genişliğini artırmak
+            gridView1.Columns["Durum"].Width = 500; 
 
 
             gridControl1.RefreshDataSource();
@@ -357,8 +357,7 @@ namespace CanToptan_Fatura_Control
                     FROM 
                     {tableInvoice} F 
                      WHERE 
-                     F.EINVOICE = 1
-                     AND F.GRPCODE = 1
+                     F.GRPCODE = 1
                      AND F.FICHENO = @FICHENO;";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@FICHENO", faturaNo);
@@ -370,7 +369,7 @@ namespace CanToptan_Fatura_Control
                             decimal tigerToplam = Convert.ToDecimal(reader["Toplam Tutar"] ?? 0);
                             decimal tigerVergi = Convert.ToDecimal(reader["Vergi Toplamı"] ?? 0);
 
-                            // Tolerans kontrolü
+                           
                             decimal tolerans = Convert.ToDecimal(Properties.Settings.Default.Tolerans ?? "0");
 
                             bool toplamFark = Math.Abs(tigerToplam - elogoToplam) > tolerans;

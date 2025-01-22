@@ -116,7 +116,6 @@ namespace CanToptan_Fatura_Control.EArşiv
             }
         }
 
-        // ComboBox için firma tanımı getirir, "Firma Seç" seçeneğini ekler
         private void FillType()
         {
             try
@@ -131,13 +130,13 @@ namespace CanToptan_Fatura_Control.EArşiv
                     }
                 }
 
-                // "Firma Seç" seçeneğini ekle
+               
                 DataRow newRow = dataTable.NewRow();
                 newRow["ID"] = -1;
                 newRow["Tanım"] = "Firma Seç";
                 dataTable.Rows.InsertAt(newRow, 0);
 
-                // ComboBox'a veri bağla
+              
                 CmbType.DataSource = dataTable;
                 CmbType.DisplayMember = "Tanım";
                 CmbType.ValueMember = "ID";
@@ -308,8 +307,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                         INNER JOIN 
                             {tableStline} STL ON F.LOGICALREF = STL.INVOICEREF
                         WHERE 
-                            F.EINVOICE = 2
-                          AND F.GRPCODE = 2
+                           F.GRPCODE = 2
                             AND F.FICHENO = @FICHENO
                         GROUP BY 
                             F.FICHENO, F.NETTOTAL, F.DOCTRACKINGNR, F.GUID;";
@@ -328,8 +326,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                         INNER JOIN 
                             {tableStline} STL ON F.LOGICALREF = STL.INVOICEREF
                         WHERE 
-                           F.EINVOICE = 2
-                          AND F.GRPCODE = 2
+                          F.GRPCODE = 2
                             AND F.FICHENO = @FICHENO
                         GROUP BY 
                             F.FICHENO, F.NETTOTAL, F.DOCTRACKINGNR, F.GUID, F.TOTALVAT;";
@@ -345,7 +342,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                             decimal tigerToplam = Convert.ToDecimal(reader["Toplam Tutar"] ?? 0);
                             decimal tigerVergi = Convert.ToDecimal(reader["Vergi Toplamı"] ?? 0);
 
-                            // Tolerans kontrolü
+                           
                             decimal tolerans = Convert.ToDecimal(Properties.Settings.Default.Tolerans ?? "0");
 
                             bool toplamFark = Math.Abs(tigerToplam - elogoToplam) > tolerans;
@@ -367,7 +364,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                     }
                 }
             }
-            gridView1.Columns["Durum"].Width = 500;  // Sütun genişliğini artırmak
+            gridView1.Columns["Durum"].Width = 500;  
 
 
             gridControl1.RefreshDataSource();
@@ -422,8 +419,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                         INNER JOIN 
                             {tableStline} STL ON F.LOGICALREF = STL.INVOICEREF
                         WHERE 
-                            F.EINVOICE = 2
-                          AND F.GRPCODE = 2
+                           F.GRPCODE = 2
                             AND F.FICHENO = @FICHENO
                         GROUP BY 
                             F.FICHENO, F.NETTOTAL, F.DOCTRACKINGNR, F.GUID;";
@@ -442,8 +438,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                         INNER JOIN 
                             {tableStline} STL ON F.LOGICALREF = STL.INVOICEREF
                         WHERE 
-                           F.EINVOICE = 2
-                          AND F.GRPCODE = 2
+                           F.GRPCODE = 2
                             AND F.FICHENO = @FICHENO
                         GROUP BY 
                             F.FICHENO, F.NETTOTAL, F.DOCTRACKINGNR, F.GUID, F.TOTALVAT;";
@@ -459,7 +454,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                             decimal tigerToplam = Convert.ToDecimal(reader["Toplam Tutar"] ?? 0);
                             decimal tigerVergi = Convert.ToDecimal(reader["Vergi Toplamı"] ?? 0);
 
-                            // Tolerans kontrolü
+                           
                             decimal tolerans = Convert.ToDecimal(Properties.Settings.Default.Tolerans ?? "0");
 
                             bool toplamFark = Math.Abs(tigerToplam - elogoToplam) > tolerans;
@@ -516,10 +511,9 @@ namespace CanToptan_Fatura_Control.EArşiv
 
                 if (!string.IsNullOrEmpty(soapResponse))
                 {
-                    // SOAP yanıtını çözümle
+                    
                     DataTable dt = ParseSoapResponse(soapResponse);
 
-                    // gridControl1'e veri bağlama
                     gridControl1.DataSource = dt;
                 }
             }
@@ -532,7 +526,7 @@ namespace CanToptan_Fatura_Control.EArşiv
                 MessageBox.Show("Beklenmeyen bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        // hata durumları ayıklar
+        
         private void HandleWebException(WebException ex)
         {
             using (WebResponse response = ex.Response)
@@ -673,7 +667,7 @@ namespace CanToptan_Fatura_Control.EArşiv
 
             try
             {
-                // SOAP Envelope oluştur
+               
                 string soapEnvelope = $@"
             <soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/'
                                xmlns:tem='http://tempuri.org/'
@@ -689,22 +683,22 @@ namespace CanToptan_Fatura_Control.EArşiv
                 </soapenv:Body>
             </soapenv:Envelope>";
 
-                // SOAP isteği gönder ve cevabı al
+             
                 string loginResponse = await SendSoapRequestLog(soapEnvelope);
 
-                // SessionID'yi çıkar
+               
                 string sessionId = ExtractSessionId(loginResponse);
 
-                // Seçilen satırı belirle ve uuid'yi al
-                int[] selectedRows = gridView1.GetSelectedRows(); // Seçilen satırların indekslerini al
+             
+                int[] selectedRows = gridView1.GetSelectedRows();
                 if (selectedRows.Length > 0)
                 {
-                    int selectedRowIndex = selectedRows[0]; // İlk seçilen satırın indeksini al
-                    string uuid = gridView1.GetRowCellValue(selectedRowIndex, "ETTN").ToString(); // "ETTN" hücresindeki değeri al
+                    int selectedRowIndex = selectedRows[0];
+                    string uuid = gridView1.GetRowCellValue(selectedRowIndex, "ETTN").ToString(); 
 
                     if (!string.IsNullOrEmpty(sessionId) && !string.IsNullOrEmpty(uuid))
                     {
-                        // SOAP belge veri isteği oluştur
+                        
                         string documentRequest = $@"
                 <soapenv:Envelope xmlns:soapenv='http://schemas.xmlsoap.org/soap/envelope/' xmlns:tem='http://tempuri.org/' xmlns:arr='http://schemas.microsoft.com/2003/10/Serialization/Arrays'>
                     <soapenv:Header/>
@@ -720,25 +714,25 @@ namespace CanToptan_Fatura_Control.EArşiv
                     </soapenv:Body>
                 </soapenv:Envelope>";
 
-                        // SOAP belge veri isteği gönder ve cevabı al
+                        
                         string responseString = await SendSoapRequestPDF("https://pb.elogo.com.tr/PostboxService.svc", documentRequest);
 
                         string base64Zip = ExtractBase64ZipFromResponse(responseString);
 
                         if (!string.IsNullOrEmpty(base64Zip))
                         {
-                            // Base64 zip verisini byte dizisine çevir
+                            
                             byte[] zipBytes = Convert.FromBase64String(base64Zip);
                             string tempZipPath = Path.Combine(Path.GetTempPath(), "document.zip");
 
-                            // Zip dosyasını diske yaz
+                           
                             File.WriteAllBytes(tempZipPath, zipBytes);
 
-                            // Zip içinden PDF çıkar
+                            
                             string pdfPath = ExtractPdfFromZip(tempZipPath);
                             if (!string.IsNullOrEmpty(pdfPath))
                             {
-                                // PDF'yi göster
+                               
                                 Frm_pdf pdf = new Frm_pdf(pdfPath);
                                 pdf.Show();
                             }

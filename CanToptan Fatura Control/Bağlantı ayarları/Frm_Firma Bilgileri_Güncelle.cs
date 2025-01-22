@@ -56,7 +56,7 @@ namespace CanToptan_Fatura_Control
         {
             if (CmbType.SelectedValue != null)
             {
-                // Seçilen değeri kontrol et
+                
                 if (int.TryParse(CmbType.SelectedValue.ToString(), out int selectedId))
                 {
                     try
@@ -97,7 +97,7 @@ namespace CanToptan_Fatura_Control
         {
             if (CmbType.SelectedValue != null)
             {
-                // Seçilen ID'yi kontrol et
+                
                 if (int.TryParse(CmbType.SelectedValue.ToString(), out int selectedId))
                 {
                     try
@@ -119,7 +119,7 @@ namespace CanToptan_Fatura_Control
 
                             using (SqlCommand cmd = new SqlCommand(updateQuery, conn))
                             {
-                                // Güncellenen alanları parametrelerle bağla
+                                
                                 cmd.Parameters.AddWithValue("@ServerName", txtServerNo.Text);
                                 cmd.Parameters.AddWithValue("@DatabaseName", txtBaseName.Text);
                                 cmd.Parameters.AddWithValue("@UserName", txtUserNo.Text);
@@ -153,7 +153,7 @@ namespace CanToptan_Fatura_Control
 
             if (CmbType.SelectedValue != null)
             {
-                // Seçilen ID'yi kontrol et
+                
                 if (int.TryParse(CmbType.SelectedValue.ToString(), out int selectedId))
                 {
                     try
@@ -169,7 +169,7 @@ namespace CanToptan_Fatura_Control
                             }
 
                             XtraMessageBox.Show("Kayıt başarıyla silindi.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                            FillType(); // ComboBox'u güncelle
+                            FillType(); 
                         }
                     }
                     catch (Exception ex)

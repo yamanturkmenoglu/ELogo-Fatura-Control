@@ -6,46 +6,72 @@
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_CanToptanFaturaControl.exe.config" Value="..\CanToptan Fatura Control\bin\Debug"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_CanToptanFaturaControl.pdb" Value="..\CanToptan Fatura Control\bin\Debug"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.BonusSkins.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Charts.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.CodeParser.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.Desktop.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.DataAccess.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Drawing.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Images.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Office.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Pdf.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Pdf.v24.1.Drawing.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Printing.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Sparkline.v24.1.Core.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Utils.v24.1.UI.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Utils.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraBars.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraEditors.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraGrid.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraLayout.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraNavBar.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraPdfViewer.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraPrinting.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraTreeList.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
+    <ROW Property="AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll" Value="..\..\..\..\..\..\Program Files\DevExpress 24.1\Components\Bin\Framework"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_NLog.dll" Value="..\packages\NLog.5.3.4\lib\net46"/>
     <ROW Property="AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll" Value="..\packages\Newtonsoft.Json.13.0.3\lib\net45"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.exe" Value="CanToptan Fatura Control.exe"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.exe.config" Value="CanToptan Fatura Control.exe.config"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.pdb" Value="CanToptan Fatura Control.pdb"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.BonusSkins.v24.1.dll" Value="DevExpress.BonusSkins.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Charts.v24.1.Core.dll" Value="DevExpress.Charts.v24.1.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.CodeParser.v24.1.dll" Value="DevExpress.CodeParser.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.Desktop.v24.1.dll" Value="DevExpress.Data.Desktop.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v24.1.dll" Value="DevExpress.Data.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataAccess.v24.1.dll" Value="DevExpress.DataAccess.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll" Value="DevExpress.DataVisualization.v24.1.Core.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Drawing.v24.1.dll" Value="DevExpress.Drawing.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Images.v24.1.dll" Value="DevExpress.Images.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Office.v24.1.Core.dll" Value="DevExpress.Office.v24.1.Core.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Pdf.v24.1.Core.dll" Value="DevExpress.Pdf.v24.1.Core.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Pdf.v24.1.Drawing.dll" Value="DevExpress.Pdf.v24.1.Drawing.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Printing.v24.1.Core.dll" Value="DevExpress.Printing.v24.1.Core.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll" Value="DevExpress.RichEdit.v24.1.Core.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Sparkline.v24.1.Core.dll" Value="DevExpress.Sparkline.v24.1.Core.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Utils.v24.1.UI.dll" Value="DevExpress.Utils.v24.1.UI.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Utils.v24.1.dll" Value="DevExpress.Utils.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v24.1.dll" Value="DevExpress.Xpo.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraBars.v24.1.dll" Value="DevExpress.XtraBars.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll" Value="DevExpress.XtraCharts.v24.1.UI.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll" Value="DevExpress.XtraCharts.v24.1.Wizard.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.dll" Value="DevExpress.XtraCharts.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraEditors.v24.1.dll" Value="DevExpress.XtraEditors.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraGrid.v24.1.dll" Value="DevExpress.XtraGrid.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraLayout.v24.1.dll" Value="DevExpress.XtraLayout.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraNavBar.v24.1.dll" Value="DevExpress.XtraNavBar.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraPdfViewer.v24.1.dll" Value="DevExpress.XtraPdfViewer.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraPrinting.v24.1.dll" Value="DevExpress.XtraPrinting.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll" Value="DevExpress.XtraRichEdit.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraTreeList.v24.1.dll" Value="DevExpress.XtraTreeList.v24.1.dll"/>
+    <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll" Value="DevExpress.XtraVerticalGrid.v24.1.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_NLog.dll" Value="NLog.dll"/>
     <ROW Property="AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll" Value="Newtonsoft.Json.dll"/>
     <ROW Property="ALLUSERS" Value="1"/>
@@ -81,7 +107,7 @@
   <COMPONENT cid="caphyon.advinst.msicomp.MsiCompsComponent">
     <ROW Component="APPDIR" ComponentId="{CC02CE2C-3120-436A-AC4D-6B365828E285}" Directory_="APPDIR" Attributes="0"/>
     <ROW Component="CanToptanFaturaControl_PrimaryOutput" ComponentId="{41C9365F-3500-4008-A200-A465B75260EF}" Directory_="CanToptanFaturaControl_Dir" Attributes="0" KeyPath="CanToptanFaturaControl.exe"/>
-    <ROW Component="CanToptanFaturaControl_References" ComponentId="{39709EDF-30F5-4CE7-8857-AF4A474E9E5F}" Directory_="CanToptanFaturaControl_Dir" Attributes="0" KeyPath="DevExpress.Office.v24.1.Core.dll"/>
+    <ROW Component="CanToptanFaturaControl_References" ComponentId="{39709EDF-30F5-4CE7-8857-AF4A474E9E5F}" Directory_="CanToptanFaturaControl_Dir" Attributes="0" KeyPath="DevExpress.CodeParser.v24.1.dll"/>
     <ROW Component="CanToptanFaturaControl_SymbolsOutput" ComponentId="{6B983122-F925-4634-8A46-1345C70E7B42}" Directory_="CanToptanFaturaControl_Dir" Attributes="0" KeyPath="CanToptanFaturaControl.pdb"/>
     <ROW Component="ProductInformation" ComponentId="{05D91FCA-DD2C-42DF-A810-EB65CDBEFC8B}" Directory_="APPDIR" Attributes="4" KeyPath="Version"/>
     <ROW Component="SHORTCUTDIR" ComponentId="{052CF23F-CE1D-4B75-9A0D-6DC58E4FABDE}" Directory_="SHORTCUTDIR" Attributes="0"/>
@@ -114,29 +140,55 @@
     <ROW File="DevExpress.RichEdit.v24.1.Core.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~18.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll&gt;" SelfReg="false"/>
     <ROW File="DevExpress.Office.v24.1.Core.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~19.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Office.v24.1.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Office.v24.1.Core.dll&gt;" SelfReg="false"/>
     <ROW File="CanToptanFaturaControl.pdb" Component_="CanToptanFaturaControl_SymbolsOutput" FileName="CANTOP~2.PDB|[|AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.pdb]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_CanToptanFaturaControl.pdb&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.Charts.v24.1.Core.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~20.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Charts.v24.1.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Charts.v24.1.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.Utils.v24.1.UI.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~21.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Utils.v24.1.UI.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Utils.v24.1.UI.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~22.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v24.1.UI.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~23.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraCharts.v24.1.Wizard.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~24.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraRichEdit.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~25.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraVerticalGrid.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~26.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.DataAccess.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~27.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataAccess.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.DataAccess.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.DataVisualization.v24.1.Core.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~28.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.XtraNavBar.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~29.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraNavBar.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.XtraNavBar.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.Images.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~30.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Images.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Images.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.Xpo.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~31.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.Xpo.v24.1.dll&gt;" SelfReg="false"/>
+    <ROW File="DevExpress.CodeParser.v24.1.dll" Component_="CanToptanFaturaControl_References" FileName="DEVEX~32.DLL|[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.CodeParser.v24.1.dll]" Attributes="0" SourcePath="&lt;AI_APPPATH_PERBUILD_DevExpress.CodeParser.v24.1.dll&gt;" SelfReg="false"/>
   </COMPONENT>
   <COMPONENT cid="caphyon.advinst.msicomp.AppPathsComponent">
     <ROW Name="AI_APPPATH_PERBUILD_CanToptanFaturaControl.exe" Path="[|AI_PROPPATH_DIR_PERBUILD_CanToptanFaturaControl.exe]\[|AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.exe]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_CanToptanFaturaControl.exe.config" Path="[|AI_PROPPATH_DIR_PERBUILD_CanToptanFaturaControl.exe.config]\[|AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.exe.config]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_CanToptanFaturaControl.pdb" Path="[|AI_PROPPATH_DIR_PERBUILD_CanToptanFaturaControl.pdb]\[|AI_PROPPATH_FILENAME_PERBUILD_CanToptanFaturaControl.pdb]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.BonusSkins.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.BonusSkins.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.BonusSkins.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Charts.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Charts.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Charts.v24.1.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.CodeParser.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.CodeParser.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.CodeParser.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Data.Desktop.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.Desktop.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.Desktop.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Data.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Data.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Data.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.DataAccess.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.DataAccess.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataAccess.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.DataVisualization.v24.1.Core.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Drawing.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Drawing.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Drawing.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Images.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Images.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Images.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Office.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Office.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Office.v24.1.Core.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Pdf.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Pdf.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Pdf.v24.1.Core.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Pdf.v24.1.Drawing.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Pdf.v24.1.Drawing.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Pdf.v24.1.Drawing.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Printing.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Printing.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Printing.v24.1.Core.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.RichEdit.v24.1.Core.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Sparkline.v24.1.Core.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Sparkline.v24.1.Core.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Sparkline.v24.1.Core.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Utils.v24.1.UI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Utils.v24.1.UI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Utils.v24.1.UI.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Utils.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Utils.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Utils.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.Xpo.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.Xpo.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.Xpo.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraBars.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraBars.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraBars.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.UI.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.Wizard.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraCharts.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraCharts.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraCharts.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraEditors.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraEditors.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraEditors.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraGrid.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraGrid.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraGrid.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraLayout.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraLayout.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraLayout.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraNavBar.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraNavBar.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraNavBar.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraPdfViewer.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraPdfViewer.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraPdfViewer.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraPrinting.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraPrinting.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraPrinting.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraRichEdit.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraTreeList.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraTreeList.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraTreeList.v24.1.dll]" Type="2" Content="0"/>
+    <ROW Name="AI_APPPATH_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_DevExpress.XtraVerticalGrid.v24.1.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_NLog.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_NLog.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_NLog.dll]" Type="2" Content="0"/>
     <ROW Name="AI_APPPATH_PERBUILD_Newtonsoft.Json.dll" Path="[|AI_PROPPATH_DIR_PERBUILD_Newtonsoft.Json.dll]\[|AI_PROPPATH_FILENAME_PERBUILD_Newtonsoft.Json.dll]" Type="2" Content="0"/>
   </COMPONENT>
@@ -279,5 +331,18 @@
     <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.RichEdit.v24.1.Core.dll"/>
     <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.Office.v24.1.Core.dll"/>
     <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="SymbolsOutput" OutputFile="CanToptanFaturaControl.pdb"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.Charts.v24.1.Core.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.Utils.v24.1.UI.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraCharts.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraCharts.v24.1.UI.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraCharts.v24.1.Wizard.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraRichEdit.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraVerticalGrid.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.DataAccess.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.DataVisualization.v24.1.Core.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.XtraNavBar.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.Images.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.Xpo.v24.1.dll"/>
+    <ROW ProjectId="{0d3f12e7-6b39-4753-b24b-5260c2ece9c7}" ProjectName="CanToptan Fatura Control" OutputGroup="References" OutputFile="DevExpress.CodeParser.v24.1.dll"/>
   </COMPONENT>
 </DOCUMENT>

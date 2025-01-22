@@ -13,7 +13,7 @@ namespace CanToptan_Fatura_Control
 
         private void Frm_Karşılaştırma_Ayarları_Load(object sender, EventArgs e)
         {
-            // TextBox'lara kaydedilmiş değerleri yükle
+           
             Txt_BayiKdv.Text = Properties.Settings.Default.BayiKdv;
             Txt_FirmaKDV.Text = Properties.Settings.Default.FirmaKdv;
             Txt_Tolerans.Text = Properties.Settings.Default.Tolerans;
@@ -21,7 +21,7 @@ namespace CanToptan_Fatura_Control
 
         private void Txt_BayiKdv_TextChanged(object sender, EventArgs e)
         {
-            // Kullanıcı girişi kaydedildiğinde değeri güncelle
+            
             Properties.Settings.Default.BayiKdv = Txt_BayiKdv.Text;
             Properties.Settings.Default.Save();
         }
